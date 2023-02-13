@@ -1,3 +1,10 @@
+/* Navbar */
+body::before{
+    height: 60px;/*Adds ghost element of 60px to the top of body to fix navbar fixedness*/
+    content: '';
+    display: block;
+}
+
 /* Newsletter */
 @media(min-width: 768px){
     .input-group{
