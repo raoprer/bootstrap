@@ -48,7 +48,7 @@
                 <div>
                     <h1>Hi. I am <span class="text-warning">Prerana Rao.</span></h1>
                     <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad vero inventore debitis soluta rerum ratione esse explicabo voluptatum quod.</p>
-                    <button class="btn btn-lg btn-primary">Know more</button>
+                    <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#more">Know more</button>
                 </div>
                 <!-- #FFF2D5  and img-fluid is used to stay in container -->
                 <img class="img-fluid w-50 d-none d-sm-block" src="images/undraw_dev_focus_re_6iwt.svg" alt="">
@@ -261,6 +261,26 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="more" tabindex="-1" aria-labelledby="moreLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="moreLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vero illum culpa sapiente, mollitia sed vel, voluptate perferendis numquam reiciendis, eligendi a ad officia itaque! A, repudiandae quod, illo facere aperiam nemo eius placeat inventore mollitia ducimus saepe beatae voluptates?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
